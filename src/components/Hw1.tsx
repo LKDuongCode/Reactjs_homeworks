@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from "react";
 
 export default function Hw1() {
+  //tạo useState
+  const [myName, setMyName] = useState<string>("Lê Khánh Dương");
+
   return (
-    <div>Hw1</div>
-  )
+    <div>
+      <h3>HomeWork 1</h3>
+      <p>My Name: {myName}</p>
+      <hr />
+    </div>
+  );
 }
