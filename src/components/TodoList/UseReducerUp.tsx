@@ -8,7 +8,6 @@ interface Todo {
 export default function UseReducerUp() {
   /*
     Thực hành làm todo list dùng useReducer
-    
     */
   //1.khai báo state
   const initial: any = {
