@@ -48,7 +48,7 @@ export default function UseReducerUp() {
     let inputValue = e.target.value;
 
     dispatch(action("CHANGE_INPUT", inputValue));
-    // console.log(state.todo);
+    console.log(state.todo);
   };
   //add
   const addTodo = () => {
