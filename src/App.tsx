@@ -5,6 +5,11 @@ import Tailwin3 from "./components/hw3/Tailwin3";
 import Taiwin4 from "./components/hw4/Taiwin4";
 import Tailwin5 from "./components/hw5/Tailwin5";
 import Tailwin6 from "./components/hw6/Tailwin6";
+import Tailwin7 from "./components/hw7/Tailwin7";
+import Tailwin8 from "./components/hw8/Tailwin8";
+import Tailwin9 from "./components/hw9/Tailwin";
+import Test from "./components/test";
+import Tailwin10 from "./components/hw10/Tailwin10";
 
 export default function App() {
   return (
@@ -15,6 +20,11 @@ export default function App() {
       <Taiwin4></Taiwin4>
       <Tailwin5></Tailwin5>
       <Tailwin6></Tailwin6>
+      <Tailwin7></Tailwin7>
+      <Tailwin8></Tailwin8>
+      <Tailwin9></Tailwin9>
+      {/* <Test></Test> */}
+      <Tailwin10></Tailwin10>
     </>
   );
 }
