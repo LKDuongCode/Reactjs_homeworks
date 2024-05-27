@@ -42,20 +42,21 @@ export default function UseReducerUp() {
         return state;
     }
   };
-
+  const [state, dispatch] = useReducer(reducer, initial);
   // input value
   let handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     let inputValue = e.target.value;
 
     dispatch(action("CHANGE_INPUT", inputValue));
-    console.log(state.todo);
+    // console.log(state.todo);
   };
   //add
   const addTodo = () => {
     dispatch(action("ADD_TODO", state.todo));
   };
+  console.log(state);
 
-  const [state, dispatch] = useReducer(reducer, initial);
+ 
   return (
     <div>
       <div className="container">
