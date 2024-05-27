@@ -1,0 +1,11 @@
+1.Sự khác nhau giữa render và re- render
+    - Render là thời điểm khi cpn chạy lần đầu (được mount và trong dom).
+        + mount là thời điểm cpn được gắn vào dom.
+        + un-mount là thời điểm cpn bị gỡ khỏi dom.
+    - Re-render khi state hoặc props thay đổi thì cpn sẽ bị re-render.
+
+2.Luồng hoạt động của hàm useState()
+    bước 1: Khi cpn được render lần đầu, useState sẽ lấy giá trị khởi tạo gán cho giá trị 
+            của state đó (giá trị khởi tạo chỉ có tác dụng trong lần đầu)
+    bước 2: Khi có event từ người dùng, làm cho state được câp nhật => cpn sẽ bị re-render.
+            và cập nhật lại giá trị ra bên ngoài giao diện.       
