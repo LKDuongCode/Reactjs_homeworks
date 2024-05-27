@@ -56,7 +56,7 @@ export default function UseState() {
         */}
         <p>Count value : {count}</p>
         <button onClick={handleClick}>count</button>
-        <p>Giá phải trả là : {price}</p>
+        <p>Giá phải trả là111 : {price}</p>
     </div>
   )
 }
