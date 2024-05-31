@@ -49,9 +49,11 @@ export default function App() {
         <Route path="/detail" element={<Detail></Detail>}></Route>
         <Route path="/customLink" element={<CustomLink></CustomLink>}></Route>
         <Route path="/home-page" element={<HomePage></HomePage>}></Route>
-        <Route path="/list-user" element={<ListUser></ListUser>}>
-          <Route path="user-detail" element={<UserDetail></UserDetail>}></Route>
-        </Route>
+        <Route path="/list-user" element={<ListUser></ListUser>}></Route>
+        <Route
+          path="/user-detail/:userId"
+          element={<UserDetail></UserDetail>}
+        ></Route>
 
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
