@@ -1,0 +1,72 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "title": "pretty girls",
+      "content": "handsome mans and pretty girls will get marries",
+      "thumbnai": "not found",
+      "created_at": "06/06/2024",
+      "created_by": "Duong",
+      "comments": [
+        "gg",
+        "fack"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "pretty girls",
+      "content": "handsome mans and pretty girls will get marries",
+      "thumbnai": "not found",
+      "created_at": "06/06/2024",
+      "created_by": "Duong",
+      "comments": [
+        "gg",
+        "fack"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "pretty girls",
+      "content": "handsome mans and pretty girls will get marries",
+      "thumbnai": "not found",
+      "created_at": "06/06/2024",
+      "created_by": "Duong",
+      "comments": [
+        "gg",
+        "fack"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "pretty girls",
+      "content": "handsome mans and pretty girls will get marries",
+      "thumbnai": "not found",
+      "created_at": "06/06/2024",
+      "created_by": "Duong",
+      "comments": [
+        "gg",
+        "fack"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 5,
+      "content": "gg at setting button!",
+      "created_at": "07/07/2024",
+      "created_by": "Hoang"
+    },
+    {
+      "id": 6,
+      "content": "gg at setting button!",
+      "created_at": "07/07/2024",
+      "created_by": "Hoang"
+    },
+    {
+      "id": 2,
+      "content": "gg at setting button!",
+      "created_at": "07/07/2024",
+      "created_by": "Hoang"
+    }
+  ]
+}
