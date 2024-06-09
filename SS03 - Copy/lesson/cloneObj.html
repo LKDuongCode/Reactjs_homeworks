@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*
+        JS:chia thành hai dạng clone. 
+        1.shalow clone: cln nông (ko cln hết)
+        - spread
+        - object.assign({},obj)
+        2.deep clone: clone sâu (cln hết)
+        - chuyển sang định dạng json.
+        let newObj = JSON.parse(JSON.stringify(obj)) (không liên quan đến obj ban đầu)
+
+
+        */
+      let obj = {
+        name: "hoa",
+        id: 1,
+        address: {
+          city: "HN",
+        },
+      };
+
+      let newObj = {
+        ...obj,
+      };
+      obj.name = "hồng";
+      obj.address.city = "HCM";
+      console.log(newObj.name);
+      console.log(newObj.address.city);
+      // tìm hiểu bài code thiêú nhi.
+      // https://github.com/yeungon/In-JavaScript-we-trust
+    </script>
+  </body>
+</html>

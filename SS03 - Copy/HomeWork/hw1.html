@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // phạm vi hoạt động của từ khóa let là block scope,
+      // biến được khai báo bằng từ khóa let chỉ hoạt động trong phạm vi nó được khai báo.
+      // biến i trong bài chỉ hoạt động trong vòng for.
+      for (let i = 0; i < 5; i++) {
+        console.log(i);
+      }
+      console.log(i);
+    </script>
+  </body>
+</html>
