@@ -1,7 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./7-next/css-js/main2.css";
-
+import Hw7 from "./7-next/Hw7";
+import Hw9 from "./7-next/Hw9";
+import Hw11 from "./1-6/Hw1";
+import axios from "axios";
+interface Student {
+  id: number;
+  name: string;
+  address: string;
+  email: string;
+  phone: string;
+} // không dùng được nếu không thì bị lỗi kiểu khi truyền.
 export default function Main2() {
+  let [stdData, setStdData] = useState<any>();
+  useEffect(() => {
+    axios
+      .get(`http://localhost:8000/students`)
+      .then((allStudent) => {
+        setStdData(allStudent.data);
+      })
+      .catch((err) => {
+        alert("Không lấy được dữ liệu");
+      });
+  }, []);
+
   return (
     <>
       <div className="container-xl">
@@ -22,160 +44,13 @@ export default function Main2() {
                     data-toggle="modal"
                   >
                     <i className="material-icons"></i>
-                    <span>Thêm mới sinh viên</span>
+                    <Hw9></Hw9>
                   </a>
                 </div>
               </div>
             </div>
-            <table className="table table-striped table-hover">
-              <thead>
-                <tr>
-                  <th>
-                    <span className="custom-checkbox">
-                      <input type="checkbox" id="selectAll" />
-                      <label htmlFor="selectAll" />
-                    </span>
-                  </th>
-                  <th>Tên sinh viên</th>
-                  <th>Email</th>
-                  <th>Địc chỉ</th>
-                  <th>Số điện thoại</th>
-                  <th>Lựa chọn</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <span className="custom-checkbox">
-                      <input
-                        type="checkbox"
-                        id="checkbox5"
-                        name="options[]"
-                        defaultValue={1}
-                      />
-                      <label htmlFor="checkbox5" />
-                    </span>
-                  </td>
-                  <td>Nguyễn Văn A</td>
-                  <td>anv@mail.com</td>
-                  <td>Thanh Xuân, Hà Nội</td>
-                  <td>(+84) 631 2097</td>
-                  <td>
-                    <a
-                      href="#editEmployeeModal"
-                      className="edit"
-                      data-toggle="modal"
-                    >
-                      <i
-                        className="material-icons"
-                        data-toggle="tooltip"
-                        title="Edit"
-                      >
-                        
-                      </i>
-                    </a>
-                    <a
-                      href="#deleteEmployeeModal"
-                      className="delete"
-                      data-toggle="modal"
-                    >
-                      <i
-                        className="material-icons"
-                        data-toggle="tooltip"
-                        title="Delete"
-                      >
-                        
-                      </i>
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span className="custom-checkbox">
-                      <input
-                        type="checkbox"
-                        id="checkbox5"
-                        name="options[]"
-                        defaultValue={1}
-                      />
-                      <label htmlFor="checkbox5" />
-                    </span>
-                  </td>
-                  <td>Nguyễn Văn B</td>
-                  <td>bnv@mail.com</td>
-                  <td>Thành phố Hồ Chí Minh</td>
-                  <td>(+84) 631 2097</td>
-                  <td>
-                    <a
-                      href="#editEmployeeModal"
-                      className="edit"
-                      data-toggle="modal"
-                    >
-                      <i
-                        className="material-icons"
-                        data-toggle="tooltip"
-                        title="Edit"
-                      >
-                        
-                      </i>
-                    </a>
-                    <a
-                      href="#deleteEmployeeModal"
-                      className="delete"
-                      data-toggle="modal"
-                    >
-                      <i
-                        className="material-icons"
-                        data-toggle="tooltip"
-                        title="Delete"
-                      >
-                        
-                      </i>
-                    </a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <div className="clearfix">
-              <div className="hint-text">
-                Hiển thị <b>5</b>/<b>10 </b>bản ghi
-              </div>
-              <ul className="pagination">
-                <li className="page-item disabled">
-                  <a href="#">Trước</a>
-                </li>
-                <li className="page-item">
-                  <a href="#" className="page-link">
-                    1
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a href="#" className="page-link">
-                    2
-                  </a>
-                </li>
-                <li className="page-item active">
-                  <a href="#" className="page-link">
-                    3
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a href="#" className="page-link">
-                    4
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a href="#" className="page-link">
-                    5
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a href="#" className="page-link">
-                    Sau
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <Hw7 stdData={stdData}></Hw7>
+            <Hw11></Hw11>
           </div>
         </div>
       </div>
@@ -275,42 +150,6 @@ export default function Main2() {
                   type="submit"
                   className="btn btn-info"
                   defaultValue="Lưu"
-                />
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      {/* Delete Modal HTML */}
-      <div id="deleteEmployeeModal" className="modal fade">
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <form>
-              <div className="modal-header">
-                <h4 className="modal-title">Xóa nhân viên</h4>
-                <button
-                  type="button"
-                  className="close"
-                  data-dismiss="modal"
-                  aria-hidden="true"
-                >
-                  ×
-                </button>
-              </div>
-              <div className="modal-body">
-                <p>Bạn chắc chắn muốn xóa sinh viên&lt;ST001&gt;?</p>
-              </div>
-              <div className="modal-footer">
-                <input
-                  type="button"
-                  className="btn btn-default"
-                  data-dismiss="modal"
-                  defaultValue="Hủy"
-                />
-                <input
-                  type="submit"
-                  className="btn btn-danger"
-                  defaultValue="Xóa"
                 />
               </div>
             </form>

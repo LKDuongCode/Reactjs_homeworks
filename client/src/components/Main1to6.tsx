@@ -1,5 +1,5 @@
 import React from "react";
-import Hw1 from "./1-6/Hw1.1";
+import Hw1 from "./1-6/Hw1";
 import Hw2 from "./1-6/Hw2";
 import Hw3 from "./1-6/Hw3";
 import Hw4 from "./1-6/Hw4";
@@ -14,7 +14,7 @@ export default function Main1to6() {
       {/* <Hw3></Hw3> */}
       {/* <Hw4></Hw4> */}
       {/* <Hw5></Hw5> */}
-      <Hw6></Hw6>
+      {/* <Hw6></Hw6> */}
     </div>
   );
 }

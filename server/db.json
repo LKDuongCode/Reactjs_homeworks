@@ -3,22 +3,30 @@
     {
       "id": 1,
       "name": "Duong",
-      "address": "HN"
+      "address": "HN",
+      "email": "duong@gmail.com",
+      "phone": "0987654321"
     },
     {
       "id": 2,
       "name": "Huy",
-      "address": "Bac Giang"
+      "address": "Bac Giang",
+      "email": "huy@gmail.com",
+      "phone": "0987654321"
     },
     {
       "id": 3,
       "name": "Hoang",
-      "address": "HN"
+      "address": "HN",
+      "email": "hoang@gmail.com",
+      "phone": "0987654321"
     },
     {
       "name": "Tuan",
       "address": "Binh Duong",
-      "id": 4
+      "id": 4,
+      "email": "duong@gmail.com",
+      "phone": "0987654321"
     }
   ]
 }
