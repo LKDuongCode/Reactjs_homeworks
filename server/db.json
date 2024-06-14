@@ -1,0 +1,172 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Tổng quan về React",
+      "date": "10/10/2010",
+      "status": "Đã xuất bản",
+      "content": "Cách sử dụng react vào trong dự án, cùng với các framework khác như bootstrap, tailwin,...",
+      "img": "https://thienanblog.com/wp-content/uploads/2017/10/react-logo.png"
+    },
+    {
+      "id": 2,
+      "title": "Giới thiệu về Vue.js",
+      "date": "12/12/2011",
+      "status": "Đã xuất bản",
+      "content": "Cách tích hợp Vue.js vào ứng dụng hiện tại và tối ưu hóa hiệu suất.",
+      "img": "https://vuejs.org/images/logo.png"
+    },
+    {
+      "id": 3,
+      "title": "Bắt đầu với Angular",
+      "date": "03/15/2012",
+      "status": "Đã xuất bản",
+      "content": "Hướng dẫn cơ bản về Angular và cách sử dụng nó trong các dự án lớn.",
+      "img": "https://angular.io/assets/images/logos/angular/angular.png"
+    },
+    {
+      "id": 4,
+      "title": "Làm quen với Svelte",
+      "date": "08/22/2013",
+      "status": "Đã xuất bản",
+      "content": "Tìm hiểu về Svelte và tại sao nó được coi là tương lai của phát triển front-end.",
+      "img": "https://svelte.dev/svelte-logo-horizontal.svg"
+    },
+    {
+      "id": 5,
+      "title": "Node.js cho người mới bắt đầu",
+      "date": "07/30/2014",
+      "status": "Đã xuất bản",
+      "content": "Các khái niệm cơ bản về Node.js và cách xây dựng ứng dụng server đơn giản.",
+      "img": "https://nodejs.org/static/images/logo.svg"
+    },
+    {
+      "id": 6,
+      "title": "Tìm hiểu về Bootstrap 4",
+      "date": "11/05/2015",
+      "status": "Đã xuất bản",
+      "content": "Cách sử dụng Bootstrap 4 để tạo giao diện người dùng đẹp mắt và linh hoạt.",
+      "img": "https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg"
+    },
+    {
+      "id": 7,
+      "title": "Cách sử dụng Tailwind CSS",
+      "date": "02/14/2016",
+      "status": "Đã xuất bản",
+      "content": "Tìm hiểu cách sử dụng Tailwind CSS để tùy chỉnh giao diện một cách dễ dàng.",
+      "img": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.7d7b2a22a3fbbbc3c5.svg"
+    },
+    {
+      "id": 8,
+      "title": "Ứng dụng GraphQL",
+      "date": "04/18/2017",
+      "status": "Đã xuất bản",
+      "content": "Cách sử dụng GraphQL để xây dựng API linh hoạt và mạnh mẽ.",
+      "img": "https://graphql.org/img/logo.svg"
+    },
+    {
+      "id": 9,
+      "title": "Redux cho quản lý trạng thái",
+      "date": "06/25/2018",
+      "status": "Đã xuất bản",
+      "content": "Hướng dẫn sử dụng Redux để quản lý trạng thái trong ứng dụng React.",
+      "img": "https://redux.js.org/img/redux-logo-landscape.png"
+    },
+    {
+      "id": 10,
+      "title": "Tìm hiểu về Next.js",
+      "date": "09/13/2019",
+      "status": "Đã xuất bản",
+      "content": "Hướng dẫn cơ bản về Next.js và các tính năng nổi bật của nó.",
+      "img": "https://nextjs.org/static/favicon/favicon-16x16.png"
+    },
+    {
+      "id": 11,
+      "title": "Tạo trang tĩnh với Gatsby",
+      "date": "12/01/2019",
+      "status": "Đã xuất bản",
+      "content": "Cách sử dụng Gatsby để tạo các trang web tĩnh với hiệu suất cao.",
+      "img": "https://www.gatsbyjs.com/Gatsby-Monogram.svg"
+    },
+    {
+      "id": 12,
+      "title": "Học về TypeScript",
+      "date": "03/03/2020",
+      "status": "Đã xuất bản",
+      "content": "Lợi ích của việc sử dụng TypeScript trong các dự án JavaScript.",
+      "img": "https://www.typescriptlang.org/assets/images/icons/apple-touch-icon-180x180.png"
+    },
+    {
+      "id": 13,
+      "title": "Kết hợp React với Material-UI",
+      "date": "05/22/2020",
+      "status": "Đã xuất bản",
+      "content": "Cách sử dụng Material-UI để tạo giao diện người dùng chuyên nghiệp trong React.",
+      "img": "https://material-ui.com/static/logo.png"
+    },
+    {
+      "id": 14,
+      "title": "Tìm hiểu về Docker",
+      "date": "08/09/2020",
+      "status": "Đã xuất bản",
+      "content": "Hướng dẫn cơ bản về Docker và cách container hóa ứng dụng.",
+      "img": "https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png"
+    },
+    {
+      "id": 15,
+      "title": "Giới thiệu về Kubernetes",
+      "date": "10/14/2020",
+      "status": "Đã xuất bản",
+      "content": "Các khái niệm cơ bản về Kubernetes và cách triển khai ứng dụng trên nó.",
+      "img": "https://kubernetes.io/images/favicon.png"
+    },
+    {
+      "id": 16,
+      "title": "CI/CD với Jenkins",
+      "date": "12/25/2020",
+      "status": "Đã xuất bản",
+      "content": "Cách thiết lập hệ thống CI/CD với Jenkins cho dự án của bạn.",
+      "img": "https://www.jenkins.io/images/logos/jenkins/Jenkins-logo.svg"
+    },
+    {
+      "id": 17,
+      "title": "Tìm hiểu về AWS",
+      "date": "03/15/2021",
+      "status": "Đã xuất bản",
+      "content": "Hướng dẫn cơ bản về các dịch vụ AWS và cách sử dụng chúng.",
+      "img": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
+    },
+    {
+      "id": 18,
+      "title": "Quản lý dự án với JIRA",
+      "date": "06/22/2021",
+      "status": "Đã xuất bản",
+      "content": "Cách sử dụng JIRA để quản lý dự án và theo dõi tiến độ công việc.",
+      "img": "https://wac-cdn.atlassian.com/dam/jcr:e47b9fb7-5cf4-4318-996b-9dba6aba0e36/Jira%20Software%20Icon.svg"
+    },
+    {
+      "id": 19,
+      "title": "Scrum và Agile",
+      "date": "09/14/2021",
+      "status": "Đã xuất bản",
+      "content": "Giới thiệu về Scrum và Agile, và cách áp dụng chúng vào quản lý dự án.",
+      "img": "https://www.scrum.org/themes/custom/scrumorg/assets/img/home_page_banner.svg"
+    },
+    {
+      "id": 20,
+      "title": "Phát triển ứng dụng di động với React Native",
+      "date": "11/11/2021",
+      "status": "Đã xuất bản",
+      "content": "Cách sử dụng React Native để phát triển ứng dụng di động cross-platform.",
+      "img": "https://reactnative.dev/img/header_logo.svg"
+    },
+    {
+      "id": 21,
+      "title": "GraphQL với Apollo",
+      "date": "01/29/2022",
+      "status": "Đã xuất bản",
+      "content": "Tìm hiểu cách sử dụng Apollo Client để làm việc với GraphQL trong ứng dụng React.",
+      "img": "https://www.apollographql.com/apollo-home.jpg"
+    }
+  ]
+}
