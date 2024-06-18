@@ -26,3 +26,11 @@ export let actionCompany = (type:any,value:any)=>{
 export let actionBackground = (type:any)=>{
     return {type:type}
 }
+
+//action signup
+export let actionSignUp = (type:any , newAcc:any) =>{
+    return {
+        type:type,
+        newAcc: newAcc,
+    }
+}

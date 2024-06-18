@@ -6,6 +6,8 @@ import Counter from "./components/hw4/Counter";
 import GenerateRandom from "./components/hw5/GenerateRandom";
 import ChangeState from "./components/hw6/ChangeState";
 import ChangeBackground from "./components/hw7/ChangeBackground";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/hw9+10/Home";
 
 export default function App() {
   return (
@@ -17,6 +19,7 @@ export default function App() {
       {/* <GenerateRandom></GenerateRandom> */}
       {/* <ChangeState></ChangeState> */}
       {/* <ChangeBackground></ChangeBackground> */}
+      <Home></Home>
     </div>
   );
 }

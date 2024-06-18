@@ -1,0 +1,32 @@
+.container-all {
+  border: 2px solid gray;
+  width: max-content;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 6px;
+  margin: 20px;
+}
+
+.title-form {
+  text-align: center;
+}
+
+.input-form {
+  width: 250px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: aliceblue;
+  padding: 6px;
+}
+
+.btn-form {
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 6px;
+}
