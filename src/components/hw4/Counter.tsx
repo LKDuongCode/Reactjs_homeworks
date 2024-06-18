@@ -1,13 +1,20 @@
 import React from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { actionCount } from "../../action";
 
 export default function Counter() {
   let count: any = useSelector((state: any) => {
     return state.countReducer;
   });
-  //
-  let handleIn = () => {};
-  let handleDe = () => {};
+  //use dispath to action
+  let dispatch = useDispatch();
+
+  let handleIn = () => {
+    dispatch(actionCount("INCREASE", 1));
+  };
+  let handleDe = () => {
+    dispatch(actionCount("DECREASE", 1));
+  };
   return (
     <div>
       <p>Count : {count}</p>
