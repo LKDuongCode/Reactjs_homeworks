@@ -21,3 +21,8 @@ export let actionCompany = (type:any,value:any)=>{
         newValue:value,
     }
 }
+
+//action background
+export let actionBackground = (type:any)=>{
+    return {type:type}
+}

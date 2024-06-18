@@ -16,7 +16,7 @@ export default function App() {
       {/* <Counter></Counter> */}
       {/* <GenerateRandom></GenerateRandom> */}
       {/* <ChangeState></ChangeState> */}
-      <ChangeBackground></ChangeBackground>
+      {/* <ChangeBackground></ChangeBackground> */}
     </div>
   );
 }

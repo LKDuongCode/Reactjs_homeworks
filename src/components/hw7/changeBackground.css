@@ -1,3 +1,15 @@
-.background7 {
+.whiteBg {
   border: 2px solid black;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  background-color: white;
+}
+.darkBg {
+  border: 2px solid black;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  background-color: black;
+  color: white;
 }

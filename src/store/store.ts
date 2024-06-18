@@ -6,6 +6,7 @@ import productlistReducer from "./reducers/productlistReducer";
 import countReducer from "./reducers/counterReducer";
 import generateRandomReducer from "./reducers/generateRandomReducer";
 import companyStateReducer from "./reducers/changeState";
+import changeBackgroundReducer from "./reducers/changeBackground";
 let rootReducer = combineReducers({
     reducerUsers:reducerUsers,
     reducerUser2:reducerUser2,
@@ -13,6 +14,7 @@ let rootReducer = combineReducers({
     countReducer:countReducer,
     generateRandomReducer:generateRandomReducer,
     companyStateReducer:companyStateReducer,
+    changeBackgroundReducer:changeBackgroundReducer,
 })
 let store = createStore(rootReducer)
 export default store;
