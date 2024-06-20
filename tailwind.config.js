@@ -5,4 +5,7 @@ export default {
     extend: {},
   },
   plugins: [],
+  corePlugins: {
+    preflight: false, // loại bỏ các thuộc tính css mặc định của tailwin.
+  },
 };
