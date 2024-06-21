@@ -1,13 +1,30 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ModalSuccess from "./ModalSuccess";
 import CartItem from "./cartCpn/CartItem";
+import Cart from "../../model/carts";
+import { useSelector } from "react-redux";
+import Combine from "../../model/combine";
+import TotalCartsLen from "./cartCpn/TotalCartsLen";
 
 export default function YourCart() {
+  //get data
+  let carts = useSelector((state: Combine) => {
+    return state.carts;
+  });
+  //kiểm tra thay đổi cart
+  useEffect(() => {
+    localStorage.setItem("carts", JSON.stringify(carts));
+  }, [carts]);
+
   //state check modal
   let [checkAdd, setCheckAdd] = useState<boolean>(false);
 
   // state check số lượng sản phẩm
   let [checkCart, setCheckCart] = useState<boolean>(false);
+  // kiểm tra carts trống không.
+  useEffect(() => {
+    carts.length !== 0 ? setCheckCart(true) : setCheckCart(false);
+  }, [checkCart]);
 
   return (
     <div className="w-[48%] flex flex-col gap-5">
@@ -27,7 +44,15 @@ export default function YourCart() {
               </tr>
             </thead>
             <tbody>
-              {checkCart && <CartItem></CartItem>}
+              {checkCart &&
+                carts.map((item: Cart, index: number) => {
+                  return (
+                    <tr key={index}>
+                      <CartItem cart={item} index={index}></CartItem>
+                    </tr>
+                  );
+                })}
+              <TotalCartsLen></TotalCartsLen>
               {!checkCart && (
                 <tr>
                   <th className="text-center text-red-500 " colSpan={5}>

@@ -1,6 +1,6 @@
 // file chứa data gốc và lưu lên local
 // do chưa học redux toolkit nên chưa thể tương tác redux với API.
-
+//PRODUCTS
 let products = [
   {
     id: Math.ceil(Math.random() * 1000),
@@ -44,5 +44,11 @@ let products = [
 localStorage.setItem("products", JSON.stringify(products));
 
 // localStorage.setItem('products',JSON.stringify([]));
+
+// --------------------------------------------------------------------------
+// CARTS
+let carts = [];
+// localStorage.setItem("carts", JSON.stringify(carts));
+localStorage.setItem("carts", JSON.stringify([]));
 
 //được link trong index.html

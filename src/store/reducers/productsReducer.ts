@@ -1,5 +1,6 @@
 
 //init
+//get local
 let products = () => {
   let storageProducts = localStorage.getItem("products");
   let arr = storageProducts ? JSON.parse(storageProducts) : [];

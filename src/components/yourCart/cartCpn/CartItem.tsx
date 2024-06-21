@@ -1,22 +1,26 @@
 import React from "react";
+import DeleteBtn from "./DeleteBtn";
+import UpdateBtn from "./UpdateBtn";
+import Combine from "../../../model/combine";
+import Cart from "../../../model/carts";
+interface Props {
+  cart: Cart;
+  index: number;
+}
+export default function CartItem(props: Props) {
+  let { cart } = props;
+  let { index } = props;
 
-export default function CartItem() {
   return (
     <>
-      <tr>
-        <td className="text-center">STT</td>
-        <td className="text-center">Name</td>
-        <td className="text-center">Price</td>
-        <td className="text-center">Quantity</td>
-        <td className=" flex gap-2 justify-center">
-          <button className="border-none text-white px-3 py-1  bg-green-400">
-            Update
-          </button>
-          <button className="border-none text-white  px-3 py-1  bg-red-400">
-            Delete
-          </button>
-        </td>
-      </tr>
+      <td className="text-center">{index + 1}</td>
+      <td className="text-center">{cart.name}</td>
+      <td className="text-center">${cart.price}</td>
+      <td className="text-center">{cart.quantity}</td>
+      <td className=" flex gap-2 justify-center">
+        <UpdateBtn></UpdateBtn>
+        <DeleteBtn cart={cart} index={index}></DeleteBtn>
+      </td>
     </>
   );
 }

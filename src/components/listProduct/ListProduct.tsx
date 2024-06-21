@@ -23,12 +23,7 @@ export default function ListProduct() {
               <ProductItem
                 key={index}
                 index={index}
-                name={item.name}
-                des={item.describle}
-                quantity={item.quantity}
-                img={item.img}
-                id={item.id}
-                price={item.price}
+                product={item}
               ></ProductItem>
             );
           })}
