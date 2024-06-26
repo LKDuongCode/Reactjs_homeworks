@@ -1,0 +1,39 @@
+{
+  "tasksList": [
+    {
+      "id": 0,
+      "name": "do the laundry",
+      "status": false
+    },
+    {
+      "id": 1,
+      "name": "clean the kitchen",
+      "status": false
+    },
+    {
+      "id": 2,
+      "name": "go grocery shopping",
+      "status": false
+    },
+    {
+      "id": 3,
+      "name": "exercise for 30 minutes",
+      "status": false
+    },
+    {
+      "id": 4,
+      "name": "read a book",
+      "status": false
+    },
+    {
+      "id": 5,
+      "name": "pay the electricity bill",
+      "status": false
+    },
+    {
+      "id": -1,
+      "name": "",
+      "status": false
+    }
+  ]
+}
