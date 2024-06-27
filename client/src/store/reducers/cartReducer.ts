@@ -4,7 +4,7 @@ import { StateCartType } from "../../model/modelType"
 import { addToCarts } from "../../service/cartService/addCart.service"
 import { removeFromCarts } from "../../service/cartService/delCart.service"
 
-//init
+//state khởi tạo carts
 let initCarts : StateCartType = {
     loading:false,
     data:[],
