@@ -1,0 +1,60 @@
+{
+  "sells": [
+    {
+      "id": 1,
+      "name": "Handmade bag",
+      "price": 100,
+      "quantity": 20,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum architecto quo",
+      "image": "https://i.ebayimg.com/images/g/-T4AAOSw41hjgxM0/s-l1200.webp"
+    },
+    {
+      "id": 2,
+      "name": "Handmade leather bag",
+      "price": 120,
+      "quantity": 15,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae",
+      "image": "https://www.zwende.com/cdn/shop/files/RebornTreasuresTheUpcycledPatchworkJholaBag_2.jpg?v=1695648507&width=1080"
+    },
+    {
+      "id": 3,
+      "name": "Handmade tote bag",
+      "price": 90,
+      "quantity": 25,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio",
+      "image": "https://chus.vn/images/detailed/207/1647352475_10053-16-f1_w767_h1105.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Handmade canvas bag",
+      "price": 85,
+      "quantity": 30,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tellus",
+      "image": "https://agaati.com/cdn/shop/products/blue-bag-w-the-Bird-of-Paradise3.jpg?v=1632858304"
+    },
+    {
+      "id": 5,
+      "name": "Handmade fabric bag",
+      "price": 95,
+      "quantity": 10,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sodales",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa6ZCl2MKio7idZw8H64WdHNYwDfdExOnmKw&s"
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "name": "Handmade bag",
+      "price": 100,
+      "quantity": 1,
+      "image": "https://i.ebayimg.com/images/g/-T4AAOSw41hjgxM0/s-l1200.webp"
+    },
+    {
+      "id": 2,
+      "name": "Handmade leather bag",
+      "price": 120,
+      "quantity": 15,
+      "image": "https://www.zwende.com/cdn/shop/files/RebornTreasuresTheUpcycledPatchworkJholaBag_2.jpg?v=1695648507&width=1080"
+    }
+  ]
+}
