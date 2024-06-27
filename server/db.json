@@ -55,6 +55,13 @@
       "price": 120,
       "quantity": 15,
       "image": "https://www.zwende.com/cdn/shop/files/RebornTreasuresTheUpcycledPatchworkJholaBag_2.jpg?v=1695648507&width=1080"
+    },
+    {
+      "id": 3,
+      "name": "Handmade tote bag",
+      "price": 90,
+      "quantity": 25,
+      "image": "https://chus.vn/images/detailed/207/1647352475_10053-16-f1_w767_h1105.jpg"
     }
   ]
 }
