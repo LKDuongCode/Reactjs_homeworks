@@ -3,16 +3,6 @@ import { Task } from "../../model/interface";
 import { useDispatch } from "react-redux";
 import { addData } from "../../store/reducers/other/addTaskReducer";
 
-// //tạo một hàm useState giả để gửi dữ liệu sang modal để validate.
-// export function cloneTask(initialValue:Task) {
-//     let task = initialValue;
-//     const setCloneTask = (newValue:Task) => {
-//       task = newValue;
-//     };
-
-//     return [state, setState];
-//   }
-
 export default function AddTask() {
   // modal setting
   let [check, setCheck] = useState<boolean>(false);
