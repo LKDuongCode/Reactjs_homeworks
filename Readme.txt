@@ -3,7 +3,8 @@ thư viện sử dụng
 2.react-router-dom : npm i react-router-dom
 3.axios : npm i axios
 4.json-server : npm install -g json-server@0.17.4
-5.redux toolkit : https://redux-toolkit.js.org/introduction/why-rtk-is-redux-today
+5.redux toolkit : https://redux-toolkit.js.org/introduction/why-rtk-is-redux-today 
+npm install @reduxjs/toolkit react-redux
 
 
 cấu trúc thư mục:
