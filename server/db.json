@@ -62,6 +62,13 @@
       "price": 90,
       "quantity": 25,
       "image": "https://chus.vn/images/detailed/207/1647352475_10053-16-f1_w767_h1105.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Handmade canvas bag",
+      "price": 85,
+      "quantity": 30,
+      "image": "https://agaati.com/cdn/shop/products/blue-bag-w-the-Bird-of-Paradise3.jpg?v=1632858304"
     }
   ]
 }
