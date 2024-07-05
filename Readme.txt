@@ -1,5 +1,6 @@
 thư viện sử dụng
 1.tailwind : https://tailwindcss.com/docs/guides/vite
+npm install -D tailwindcss postcss autoprefixer
 2.react-router-dom : npm i react-router-dom
 3.axios : npm i axios
 4.json-server : npm install -g json-server@0.17.4
