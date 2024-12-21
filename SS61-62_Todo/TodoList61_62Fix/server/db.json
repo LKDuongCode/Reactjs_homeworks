@@ -1,0 +1,151 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "David Ngo",
+      "gender": 1,
+      "born": "12/12/2012",
+      "email": "Dav@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Emma Johnson",
+      "gender": 0,
+      "born": "05/03/2010",
+      "email": "emma.j@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Michael Smith",
+      "gender": 1,
+      "born": "08/15/2009",
+      "email": "michael.s@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Sophia Brown",
+      "gender": 0,
+      "born": "11/22/2011",
+      "email": "sophia.b@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "James Davis",
+      "gender": 1,
+      "born": "07/30/2010",
+      "email": "james.d@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Olivia Wilson",
+      "gender": 0,
+      "born": "04/18/2013",
+      "email": "olivia.w@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Benjamin Moore",
+      "gender": 1,
+      "born": "03/07/2009",
+      "email": "benjamin.m@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "Ava Taylor",
+      "gender": 0,
+      "born": "06/25/2011",
+      "email": "ava.t@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "Lucas Anderson",
+      "gender": 1,
+      "born": "09/13/2012",
+      "email": "lucas.a@gmail.com"
+    },
+    {
+      "id": 10,
+      "name": "Isabella Thomas",
+      "gender": 0,
+      "born": "12/01/2009",
+      "email": "isabella.t@gmail.com"
+    },
+    {
+      "id": 11,
+      "name": "Mason Jackson",
+      "gender": 1,
+      "born": "02/14/2013",
+      "email": "mason.j@gmail.com"
+    },
+    {
+      "id": 12,
+      "name": "Mia White",
+      "gender": 0,
+      "born": "05/22/2012",
+      "email": "mia.w@gmail.com"
+    },
+    {
+      "id": 13,
+      "name": "Ethan Harris",
+      "gender": 1,
+      "born": "10/09/2010",
+      "email": "ethan.h@gmail.com"
+    },
+    {
+      "id": 14,
+      "name": "Charlotte Martin",
+      "gender": 0,
+      "born": "01/27/2009",
+      "email": "charlotte.m@gmail.com"
+    },
+    {
+      "id": 15,
+      "name": "Logan Thompson",
+      "gender": 1,
+      "born": "04/16/2013",
+      "email": "logan.t@gmail.com"
+    },
+    {
+      "id": 16,
+      "name": "Amelia Garcia",
+      "gender": 0,
+      "born": "07/05/2011",
+      "email": "amelia.g@gmail.com"
+    },
+    {
+      "id": 17,
+      "name": "Alexander Martinez",
+      "gender": 1,
+      "born": "08/19/2009",
+      "email": "alexander.m@gmail.com"
+    },
+    {
+      "id": 18,
+      "name": "Harper Robinson",
+      "gender": 0,
+      "born": "11/11/2012",
+      "email": "harper.r@gmail.com"
+    },
+    {
+      "id": 19,
+      "name": "Daniel Clark",
+      "gender": 1,
+      "born": "03/03/2010",
+      "email": "daniel.c@gmail.com"
+    },
+    {
+      "id": 20,
+      "name": "Ella Rodriguez",
+      "gender": 0,
+      "born": "06/28/2013",
+      "email": "ella.r@gmail.com"
+    },
+    {
+      "id": 21,
+      "name": "Henry Lewis",
+      "gender": 1,
+      "born": "09/15/2011",
+      "email": "henry.l@gmail.com"
+    }
+  ]
+}
